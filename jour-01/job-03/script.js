@@ -3,7 +3,7 @@ function myIsInString(haystack, needle) {
 }
 
 const haystack = "Bonjour, comment ça va ?";
-const needle = "Anne";
+const needle = "comm";
 
 const resultElement = document.getElementById("result");
 const isFound = myIsInString(haystack, needle);
